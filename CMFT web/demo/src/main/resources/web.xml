@@ -1,0 +1,13 @@
+<web-app>
+    <servlet>
+        <servlet-name>FuelStatsServlet</servlet-name>
+        <servlet-class>
+            com.example.demo.servlet.FuelStatsServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FuelStatsServlet</servlet-name>
+        <url-pattern>/servlet/fuel-stats</url-pattern>
+    </servlet-mapping>
+</web-app>
